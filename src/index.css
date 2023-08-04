@@ -11,3 +11,27 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.container {
+  max-width: 1224px;
+  margin: 0 auto;
+}
+
+img {
+  width: 100%;
+  object-fit: contain;
+  border-radius: 15px;
+}
+
+.gallery-container {
+  column-count: 3;
+  column-gap: 20px 20px;
+  /* width: 1200px; */
+ }
+ 
+ figure {
+  margin: 0;
+  display: inline-block;
+  margin-bottom: 0px;
+  width: 100%;
+ }
